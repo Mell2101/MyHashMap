@@ -272,10 +272,10 @@ public class MyHashMap<K,V> {
         }
 
     }
+
     /**
      * Inner class iterator implements interface Iterator.
      */
-
     private class HashMapIterator implements Iterator<Entry<K, V>> {
         private int bucketIndex = 0;
 
